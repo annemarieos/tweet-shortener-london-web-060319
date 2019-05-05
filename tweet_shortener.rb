@@ -10,7 +10,7 @@ def dictionary
     "at" => "@",
     "and" => "&"
   }
-end 
+end
 
 def word_substituter(string)
   string.split.collect do |word|
@@ -18,6 +18,6 @@ def word_substituter(string)
       word = dictionary[word.downcase]
     else
       word
-    end 
-  end.join(" ")   
+    end
+  end.join(" ")
 end    
