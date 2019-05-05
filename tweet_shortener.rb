@@ -20,4 +20,4 @@ def word_substituter(string)
       word
     end
   end.join(" ")
-end    
+end
